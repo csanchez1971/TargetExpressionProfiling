@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+.Rproj.user
+
+TEP_Shiny_reduced.RData
+rubbish
+/TEP/data/*
