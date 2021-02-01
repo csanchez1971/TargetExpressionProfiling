@@ -41,5 +41,7 @@ vignettes/*.pdf
 .Rproj.user
 
 TEP_Shiny_reduced.RData
-rubbish
-/TEP/data/*
+/TEP/rubbish/*
+/TEP/data/*.rda
+/TEP/data/*.out
+/TEP/data/H*.csv

@@ -1,0 +1,69 @@
+MAGE-TAB Version	1.1
+Investigation Title	An RNASeq normal tissue atlas for mouse and rat
+
+Experimental Design	organism part comparison design	species design
+Experimental Design Term Source REF	EFO	EFO
+Experimental Design Term Accession Number	EFO_0001750	EFO_0001753
+
+Experimental Factor Name	organism	organism part
+Experimental Factor Type	organism	organism part
+Experimental Factor Term Source REF	EFO	EFO
+Experimental Factor Term Accession Number	OBI_0100026	EFO_0000635
+
+Person Last Name	Simon
+Person First Name	Eric
+Person Mid Initials
+Person Email	eric.simon@boehringer-ingelheim.com
+Person Phone
+Person Fax
+Person Affiliation	Boehringer Ingelheim Pharma GmbH & Co. KG  Target Discovery Research
+Person Address	Boehringer Ingelheim Pharma GmbH & Co. KG  Birkendorfer Str. 65 D-88397 Biberach Riss
+Person Roles	investigator;submitter
+Person Roles Term Source REF
+Person Roles Term Accession Number
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2011-12-09
+Public Release Date	2017-10-25
+
+PubMed ID	29231921
+Publication DOI	10.1038/sdata.2017.185
+Publication Author List	Julia F. Soellner, German Leparc,  Tobias Hildebrandt, Holger Klein,  Leo Thomas, Elia Stupka, Eric Simon
+Publication Title	An RNA-seq atlas of gene expression in mouse and rat normal tissues
+Publication Status	published
+Publication Status Term Source REF
+Publication Status Term Accession Number
+
+Experiment Description	The function of a gene is closely connected to its expression specificity across tissues and cell types. RNA-Seq is a powerful quantitative tool to explore genome wide expression. The aim of the present study is to provide a comprehensive RNA-Seq dataset across the same 13 tissues for mouse and rat, two of the most relevant species for biomedical research. The dataset provides the transcriptome across tissues from three male C57BL6 mice and three male Han Wistar rats. We also describe our bioinformatics pipeline to process and technically validate the data. Principal component analysis shows that tissue samples from both species cluster similarly. By comparative genomics we show that many genes with high sequence identity with respect to their human orthologues have also a highly correlated tissue distribution profile and are in agreement with manually curated literature data for human. These results make us confident that the present study provides a unique resource for comparative genomics and will facilitate the analysis of tissue specificity and cross-species conservation in higher organisms.
+
+Protocol Name	P-MTAB-68002	P-MTAB-68001	P-MTAB-67999	P-MTAB-68000	P-MTAB-68799
+Protocol Type	nucleic acid sequencing protocol	nucleic acid library construction protocol	sample collection protocol	nucleic acid extraction protocol	normalization data transformation protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0004170	EFO_0004184	EFO_0005518	EFO_0002944	EFO_0003816
+Protocol Description	Pooled libraries have then been clustered on the cBot Instrument from Illumina using the TruSeq SR Cluster Kit v3 - cBot - HS(GD-401-3001, Illumina Inc, San Diego, CA)  sequencing was then performed as 50 bp, single  reads and 7 bases index read on an Illumina HiSeq2000 instrument using the TruSeq SBS Kit HS- v3  (50-cycle) (FC-401-3002, Illumina Inc, San Diego, CA).	The Sequencing library preparation has been done using 200 ng of total RNA input with the TrueSeq RNA Sample Prep Kit v2-Set B (RS-122-2002, Illumina Inc, San Diego, CA) producing a 275bp fragment including adapters in average size. In the final step before sequencing, eight individual libraries were normalized and pooled together using the adapter indices supplied by the manufacturer.	Male Wistar Han rats (Crl:WI(Han)) and male BL/6J mice (C57BL/6J) were obtained from Charles River Laboratories (Germany). Experimental protocols concerning the use of laboratory animals were reviewed by a German Federal Ethics Committee and approved by German governmental authorities. Animals were housed in groups of three on a 12-h light/dark cycle and fed ad libitum a standard pelleted rodent diet (Diet No. 3438, Provimi Kliba Switzerland) with free access to water. Rats with a body weight of 160-180 g and rats and mice at the age of 7-8 weeks were used for tissue sampling. Retrobulbar blood samples were collected in the morning at 9 a.m. under isofluran anesthesia immediately prior to dissection. Animals (n = 3 for each species) were sacrificed thereafter by intraperitoneal injection of pentobarbital (rats) or cervical dislocation (mice) and tissues (esophagus, stomach, duodenum, jejunum, ileum, colon, pancreas, liver, thymus, kidney, heart, brain, quadriceps muscle) were harvested and transferred immediately to RNA Later at 4 degrees celsius.	Total RNAs were individually extracted using the Ambion Magmax-96 total RNA isolation kit (Life Sciences) according to the manufacturers instructions. Briefly, 5 mg of tissue was placed in the lysis solution and homogenized in Qiagen Tissuelyzer for a period of 30 sec. Nucleic acids were captured onto magnetic beads, washed and treated with DNase. Total RNA was then eluted in 50 l elution buffer. RNA quality and concentration was measured using an RNA Pico chip on an Agilent Bioanalyzer.	Protocol for generating the RPKM Matrix files: RNA-Seq reads from rat and mouse samples were aligned to the rat and mouse genomes respectively using the STAR Aligner v2.5.2a11 with their corresponding Ensembl 84 reference genomes (http://www.ensembl.org). Sequenced read quality was checked with FastQC v0.11.2 (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and alignment quality metrics were calculated using the RNASeQC v1.1812. Following read alignment, duplication rates of the RNA-Seq samples were computed with bamUtil v1.0.11 to mark duplicate reads and the dupRadar v1.4 Bioconductor R package for assessment13. The gene expression profiles were quantified using Cufflinks software version 2.2.114 to get the Reads Per Kilobase of transcript per Million mapped reads (RPKM).
+Protocol Parameters
+Protocol Hardware	Illumina HiSeq 2000
+Protocol Software
+Protocol Contact
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.38
+
+SDRF File	E-MTAB-6081.sdrf.txt
+Comment [Submitted Name]	An RNASeq normal tissue atlas for mouse and rat
+Comment [SecondaryAccession]	ERP104395
+Comment [SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR2130614-ERR2130690
+Comment [AEExperimentType]	RNA-seq of coding RNA
+Comment[ArrayExpressAccession]	E-MTAB-6081
